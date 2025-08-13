@@ -57,9 +57,3 @@ Visit 👉 **http://localhost:8501** to use the app.
 - **Streamlit** – Web UI framework
 - **Docker** – Containerization
 - **Datetime** – Due date handling
-
----
-
-## 🤝 Contributing
-Contributions are welcome!  
-Feel free to fork this repository, create a branch, and submit a PR.
