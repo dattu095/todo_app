@@ -27,7 +27,7 @@ Go to 👉 **http://localhost:8501** in your browser to access the app.
 
 ---
 
-![docs/docker.md]
+![docker installation](docs/docker.md)
 
 ---
 
