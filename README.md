@@ -27,7 +27,19 @@ Go to 👉 **http://localhost:8501** in your browser to access the app.
 
 ---
 
-![docker installation](docs/docker.md)
+## 🐳 Docker Setup
+
+### Build Docker Image
+```bash
+docker build -t todo .
+```
+
+### Run Docker Container
+```bash
+docker run -p 8501:8501 todo:latest
+```
+
+Visit 👉 **http://localhost:8501** to use the app.
 
 ---
 
@@ -45,3 +57,36 @@ Go to 👉 **http://localhost:8501** in your browser to access the app.
 - **Streamlit** – Web UI framework
 - **Docker** – Containerization
 - **Datetime** – Due date handling
+
+---
+
+## Useage
+
+### 🏠 Main Screen
+When you open the app, you'll see the *task list* showing all tasks with their:
+- Title
+- Description
+- Due Date (with remaining days)
+- Priority
+- Status (Pending / Completed)
+
+From here, you can:
+- ✅ Mark a task as completed
+- ✏️ Edit a task
+- 🗑 Delete a task
+
+Screenshot:
+![Main Screen](docs/images/main_screen.png)
+
+### ➕ Create / ✏️ Edit Task
+Click on *Add Task* (or *Edit* for existing tasks) to open the task dialog.
+You can:
+- Enter or update the *Title*
+- Add a *Description*
+- Select a *Due Date*
+- Choose a *Priority Level*
+
+Screenshot:
+![Edit Dialog](docs/images/edit_task.png)
+
+---
