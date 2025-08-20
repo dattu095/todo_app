@@ -9,8 +9,8 @@ Easily run locally or using Docker.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/dattu095/todo_list.git
-cd todo_list
+git clone https://github.com/dattu095/calculator.git
+cd calculator
 ```
 
 ### 2️⃣ Install Dependencies
@@ -60,7 +60,7 @@ Visit 👉 **http://localhost:8501** to use the app.
 
 ---
 
-## Useage
+## 📱 Useage
 
 ### 🏠 Main Screen
 When you open the app, you'll see the *task list* showing all tasks with their:
